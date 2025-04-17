@@ -4,11 +4,11 @@ A Restful API for processing the receipt data and calculating points based on re
 
 ## Overview
 
-This application processes digital receipts and awards points based on the spcific rules. It exposes endpoints to submit receipts and rectrieve point calculations.
+This application processes digital receipts and awards points based on specific rules. It exposes endpoints to submit receipts and retrieve point calculations.
 
-The values are stored used "Map" data structure. The Key-Value pair to store the receipt JSON Body for the respective id as key.
+The values are stored using the "Map" data structure. The Key-Value pair to store the receipt JSON Body for the respective ID as a key.
 
-UUID Library is used to generate Id
+UUID Library is used to generate the Id
 
 
 ### Point Calculation Rules
@@ -19,7 +19,7 @@ Points are awarded based on the following criteria:
 - 5 points for every two items on the receipt
 - If the trimmed length of an item description is a multiple of 3, multiply the price by 0.2 and round up to the nearest integer
 - 6 points if the day in the purchase date is odd
-- 10 points if the purchase time is between 2:00pm and 4:00pm
+- 10 points if the purchase time is between 2:00 pm and 4:00 pm
 
 ### API Endpoints
 
