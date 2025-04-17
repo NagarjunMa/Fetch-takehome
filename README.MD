@@ -1,6 +1,6 @@
 # Receipt Processor API 
 
-A RestFul API for processing the receipt data and calculating points based on receipt attributes.
+A Restful API for processing the receipt data and calculating points based on receipt attributes.
 
 ## Overview
 
